@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Instant Quote, fast & responsive",
+  "text": "Get an instant quote for your junk car by entering some basic information about your vehicle. Our advanced algorithm, developed by our team of experts, will provide you with a fair and accurate quote in seconds.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Documentation",
+      "content": "We offer documentation with every transaction, so you can be confident that the process is handled professionally and legally.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Download",
+      "content": "We offer the ability to download your quote as a PDF document, so you can keep a record of the estimate and refer to it whenever you need to.",
       "icon": "notes.svg"
     }
   ]
