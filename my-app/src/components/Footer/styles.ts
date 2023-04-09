@@ -91,12 +91,13 @@ export const FooterContainer = styled("div")`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
 
   a {
+    padding-right: 1rem;
     &:hover,
     &:active,
     &:focus {
@@ -119,6 +120,7 @@ export const FooterContainer = styled("div")`
     margin-right: 15px;
     width: 25px;
     height: 25px;
+    
 
     &:hover {
       fill: rgb(255, 130, 92);
