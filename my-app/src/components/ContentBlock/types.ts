@@ -8,3 +8,11 @@ export interface ContentBlockProps {
   id: string;
   type?: string;
 }
+
+export interface BlogContentBlockProps {
+  title: string;
+  subtitle: string;
+  button?: any;
+  image?: any;
+  paragraphs: Array<string>;
+}

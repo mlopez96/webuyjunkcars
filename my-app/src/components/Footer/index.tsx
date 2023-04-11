@@ -83,7 +83,7 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Chicos Towing Inc</Para>
+              <Para>We Buy Junk Cars Company</Para>
               <Para>3930 Bellevue Ave</Para>
               <Para>Lake Worth, Florida 33461</Para>
             </Col>
@@ -92,11 +92,11 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("About")}
               </Large>
-              <Large left="true" to="/">
+              <Large left="true" to="/blog">
                 {t("Blog")}
               </Large>
-              <Large left="true" to="/">
-                {t("Press")}
+              <Large left="true" to="/faq">
+                {t("FAQ")}
               </Large>
               <Large left="true" to="/">
                 {t("Careers & Culture")}

@@ -43,10 +43,11 @@ export const LogoContainer = styled("div")`
   position: relative;
 `;
 
-export const Para = styled("div")`
+export const Para = styled("p")`
   color: #18216d;
   font-size: 14px;
   width: 70%;
+  margin-bottom: 0.25em;
 `;
 
 export const Large = styled(Link)<any>`
