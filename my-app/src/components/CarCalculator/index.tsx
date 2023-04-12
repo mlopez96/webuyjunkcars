@@ -2,17 +2,15 @@ import { Row, Col, Select } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { ContactProps } from "./types";
-import { Button } from "../../common/Button";
 import Block from "../Block";
 
-import { ContactContainer, FormGroup, ButtonContainer } from "./styles";
+import { ContactContainer, FormGroup } from "./styles";
 import { useState } from "react";
 
 const CarCalculator = ({ title, content, id, t }: ContactProps) => {
   const [carMake, setCarMake] = useState<string>("");
   const [carState, setCarState] = useState<string>("");
   const [carYear, setCarYear] = useState<number>(0);
-  const [calculatedPrice, setCalculatedPrice] = useState<string>('...');
 
 
   const years = {
@@ -115,12 +113,6 @@ const CarCalculator = ({ title, content, id, t }: ContactProps) => {
    return `$${price.toFixed(2)}`; 
   }
 
-  const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const price = (states as any)[carState] * 0.1 + (makes as any)[carMake] * 0.4 + (years as any)[carYear] * 0.4;  
-    setCalculatedPrice(`$${price.toFixed(2)}`);
-  };
-
   const handleOptions= (type:object) => {
     return Object.keys(type).map((element) => {
       return { value: element, label: element }
@@ -138,13 +130,13 @@ const CarCalculator = ({ title, content, id, t }: ContactProps) => {
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right">
-            <FormGroup autoComplete="off" onSubmit={handleSubmit}>
+            <FormGroup autoComplete="off">
               <div style={{
-                display: 'flex', flexDirection: 'column', width: '100%', height: '250px', alignItems: 'center', justifyContent: 'space-around'
+                display: 'flex', flexDirection: 'column', width: '100%', height: '175px', alignItems: 'center'
               }}>
                  <Select
                   placeholder="All Makes"
-                  style={{ width: 200, fontSize: '1rem' }}
+                  style={{ width: 200, fontSize: '1rem', marginBottom: '1.5rem' }}
                   allowClear
                   onClear={() => setCarMake("")}
                   onSelect={value => setCarMake(value)}
@@ -152,7 +144,7 @@ const CarCalculator = ({ title, content, id, t }: ContactProps) => {
                 />
                 <Select
                   placeholder="All Years"
-                  style={{ width: 200, fontSize: '1rem' }}
+                  style={{ width: 200, fontSize: '1rem', marginBottom: '1.5rem' }}
                   allowClear
                   onClear={() => setCarYear(0)}
                   onSelect={value => setCarYear(value)}
@@ -160,7 +152,7 @@ const CarCalculator = ({ title, content, id, t }: ContactProps) => {
                 />
                 <Select
                   placeholder="All States"
-                  style={{ width: 200, fontSize: '1rem' }}
+                  style={{ width: 200, fontSize: '1rem', marginBottom: '1.5rem' }}
                   allowClear
                   onClear={() => setCarState("")}
                   onSelect={value => setCarState(value)}
