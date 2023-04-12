@@ -15,11 +15,15 @@ export const StyledButton = styled("button")<any>`
   transition: all 0.3s ease-in-out;
   box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
 
-  &:hover,
-  &:active,
+  &:hover:enabled,
+  &:active:enabled,
   &:focus {
     color: #fff;
     border: 1px solid rgb(255, 130, 92);
     background-color: rgb(255, 130, 92);
+  }
+  &:disabled {
+    opacity: 0.5;
+    backgound-color: #2e186a !important;
   }
 `;
