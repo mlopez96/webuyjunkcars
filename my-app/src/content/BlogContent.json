@@ -1,0 +1,12 @@
+{
+  "blogs": [
+    {
+      "title": "Blog Post 1",
+      "description": "Short sentence describing the article",
+      "date": "10/21/2022",
+      "author": "Mike Lopez",
+      "featureImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWCDtoHKQx4mqR1pCOBkC9KFfms91deQ1A0m8pYpMRmplJMMSc",
+      "featureImageAlt": "Blue background with line of people's heads peeping out"
+    }
+  ]
+}
