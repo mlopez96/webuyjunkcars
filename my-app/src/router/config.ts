@@ -10,6 +10,11 @@ const routes = [
     component: "Blog",
   },
   {
+    path: ["/", "/blog/:blogId"],
+    exact: true,
+    component: "BlogArticle",
+  },
+  {
     path: ["/", "/faq"],
     exact: true,
     component: "FAQ",

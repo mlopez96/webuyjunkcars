@@ -1,12 +1,46 @@
 {
   "blogs": [
     {
-      "title": "Blog Post 1",
-      "description": "Short sentence describing the article",
+      "id": 1,
+      "title": "What does salvage title mean?",
+      "description": "Salvage title is a vehicle declared a total loss by an insurance company",
       "date": "10/21/2022",
       "author": "Mike Lopez",
-      "featureImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWCDtoHKQx4mqR1pCOBkC9KFfms91deQ1A0m8pYpMRmplJMMSc",
-      "featureImageAlt": "Blue background with line of people's heads peeping out"
+      "featureImage": "https://static.wixstatic.com/media/7137a66d51a046f2bd364c8adf9a8692.jpg/v1/fill/w_1960,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7137a66d51a046f2bd364c8adf9a8692.jpg",
+      "featureImageAlt": "Dark colored car with dented hood signifying damage.",
+      "paragraphs": [
+        "It’s important to know that once a car’s branding is salvage, it can never have a clean title again. We’ll get into what that means further down. As far as if should you buy a car with a salvage title, that is entirely up to the individual. There are instances where a vehicle’s branding is salvage, but not because of damage done to the vehicle, but for insurance purposes. The most common example of this is theft recovery. A vehicle that has been stolen and later recovered is deemed salvage because the owner of the stolen vehicle had already been paid out by their insurance company in most cases. The insurance company then deems it as salvage even if the vehicle is in perfectly drive able condition. So, you can better understand what a salvage title entails, let’s talk about the other kinds of car titles as well.",
+        "There is a lot of mystery around selling salvage title cars and owning them. Is it illegal to sell them? Can you drive a car with a salvage title? Am I sentencing myself to doom by driving one? Simply put, salvage means that the car’s damage, whether it be physical or legal, exceeds the value of the car. The insurance companies also deem it unsafe to drive on public roads.",
+        "There are several different ways to sell a salvage vehicle. We’ll give you some of the most common: Craigslist, Social Media, Car Auction, Salvage Yard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What does salvage title mean?",
+      "description": "Salvage title is a vehicle declared a total loss by an insurance company",
+      "date": "10/21/2022",
+      "author": "Mike Lopez",
+      "featureImage": "https://static.wixstatic.com/media/7137a66d51a046f2bd364c8adf9a8692.jpg/v1/fill/w_1960,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7137a66d51a046f2bd364c8adf9a8692.jpg",
+      "featureImageAlt": "Dark colored car with dented hood signifying damage.",
+      "paragraphs": [
+        "It’s important to know that once a car’s branding is salvage, it can never have a clean title again. We’ll get into what that means further down. As far as if should you buy a car with a salvage title, that is entirely up to the individual. There are instances where a vehicle’s branding is salvage, but not because of damage done to the vehicle, but for insurance purposes. The most common example of this is theft recovery. A vehicle that has been stolen and later recovered is deemed salvage because the owner of the stolen vehicle had already been paid out by their insurance company in most cases. The insurance company then deems it as salvage even if the vehicle is in perfectly drive able condition. So, you can better understand what a salvage title entails, let’s talk about the other kinds of car titles as well.",
+        "There is a lot of mystery around selling salvage title cars and owning them. Is it illegal to sell them? Can you drive a car with a salvage title? Am I sentencing myself to doom by driving one? Simply put, salvage means that the car’s damage, whether it be physical or legal, exceeds the value of the car. The insurance companies also deem it unsafe to drive on public roads.",
+        "There are several different ways to sell a salvage vehicle. We’ll give you some of the most common: Craigslist, Social Media, Car Auction, Salvage Yard"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "What does salvage title mean?",
+      "description": "Salvage title is a vehicle declared a total loss by an insurance company",
+      "date": "10/21/2022",
+      "author": "Mike Lopez",
+      "featureImage": "https://static.wixstatic.com/media/7137a66d51a046f2bd364c8adf9a8692.jpg/v1/fill/w_1960,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7137a66d51a046f2bd364c8adf9a8692.jpg",
+      "featureImageAlt": "Dark colored car with dented hood signifying damage.",
+      "paragraphs": [
+        "It’s important to know that once a car’s branding is salvage, it can never have a clean title again. We’ll get into what that means further down. As far as if should you buy a car with a salvage title, that is entirely up to the individual. There are instances where a vehicle’s branding is salvage, but not because of damage done to the vehicle, but for insurance purposes. The most common example of this is theft recovery. A vehicle that has been stolen and later recovered is deemed salvage because the owner of the stolen vehicle had already been paid out by their insurance company in most cases. The insurance company then deems it as salvage even if the vehicle is in perfectly drive able condition. So, you can better understand what a salvage title entails, let’s talk about the other kinds of car titles as well.",
+        "There is a lot of mystery around selling salvage title cars and owning them. Is it illegal to sell them? Can you drive a car with a salvage title? Am I sentencing myself to doom by driving one? Simply put, salvage means that the car’s damage, whether it be physical or legal, exceeds the value of the car. The insurance companies also deem it unsafe to drive on public roads.",
+        "There are several different ways to sell a salvage vehicle. We’ll give you some of the most common: Craigslist, Social Media, Car Auction, Salvage Yard"
+      ]
     }
   ]
 }
