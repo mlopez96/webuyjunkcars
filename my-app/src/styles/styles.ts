@@ -37,6 +37,7 @@ export const Styles = createGlobalStyle`
 
     input,
     textarea {
+        font-family: 'Motiva Sans Light', serif;
         border-radius: 4px;
         border: 0;
         background: rgb(241, 242, 243);
@@ -61,6 +62,7 @@ export const Styles = createGlobalStyle`
         color: #18216d;
         font-size: 56px;
         line-height: 1.18;
+        margin: 1rem 0rem;
 
         @media only screen and (max-width: 890px) {
           font-size: 47px;

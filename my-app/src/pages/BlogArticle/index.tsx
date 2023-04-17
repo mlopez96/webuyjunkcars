@@ -11,11 +11,11 @@ const BlogArticle = () => {
   const { blogId } = useParams<any>();
   useEffect(() => {
     const currentBlog = Content.blogs.find((blog:BlogPost) => {
-      const found = blog.id === blogId
+      const found = blog.id.toString() === blogId;
       if (!found) {
         return Content.blogs[0] as BlogPost;
       }
-      return blog.id === blogId;
+      return blog.id.toString() === blogId;
     });
     setCurrentArticle(currentBlog as BlogPost);
   }, [blogId])

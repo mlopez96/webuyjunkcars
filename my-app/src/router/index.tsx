@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import routes from "./config";
@@ -10,18 +10,17 @@ const Router = () => {
     <Suspense fallback={null}>
       <Styles />
       <Header />
-      <Switch>
+      <Routes>
         {routes.map((routeItem) => {
           return (
             <Route
               key={routeItem.component}
               path={routeItem.path}
-              exact={routeItem.exact}
-              component={lazy(() => import(`../pages/${routeItem.component}`))}
+              Component={lazy(() => import(`../pages/${routeItem.component}`))}
             />
           );
         })}
-      </Switch>
+      </Routes>
       <Footer />
     </Suspense>
   );

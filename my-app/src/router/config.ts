@@ -1,22 +1,18 @@
 const routes = [
   {
-    path: ["/", "/home"],
-    exact: true,
+    path: "/",
     component: "Home",
   },
   {
-    path: ["/", "/blog"],
-    exact: true,
+    path: "/blog",
     component: "Blog",
   },
   {
-    path: ["/", "/blog/:blogId"],
-    exact: true,
+    path: "/blog/:blogId",
     component: "BlogArticle",
   },
   {
-    path: ["/", "/faq"],
-    exact: true,
+    path: "/faq",
     component: "FAQ",
   },
 ];

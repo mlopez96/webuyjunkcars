@@ -15,6 +15,7 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -35,15 +36,28 @@ const Header = ({ t }: any) => {
       });
       setVisibility(false);
     };
+
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const handleClick = async (id: string) => {
+      if (location.pathname !== '/') {
+        navigate('/')
+        scrollTo(id);
+        return;
+      }
+      return scrollTo(id);
+    };
+
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+        <CustomNavLinkSmall onClick={() => handleClick("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+        <CustomNavLinkSmall onClick={() => handleClick("mission")}>
           <Span>{t("Mission")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
+        <CustomNavLinkSmall onClick={() => handleClick("product")}>
           <Span>{t("Product")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall

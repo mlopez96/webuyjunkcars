@@ -83,7 +83,7 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>We Buy Junk Cars Company</Para>
+              <Para>WeBuyJunkCars Company</Para>
               <Para>3930 Bellevue Ave</Para>
               <Para>Lake Worth, Florida 33461</Para>
             </Col>

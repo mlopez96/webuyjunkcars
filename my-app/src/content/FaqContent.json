@@ -1,0 +1,35 @@
+{
+  "questions": [
+    {
+      "question": "How do I get a quote?",
+      "answer": [
+        "Fill out our quote estimate based on the make, model, and year calculator to get an estimated quote based on historical data across the United States. Contact us today to get a quote for your specific needs & experience top-notch services from a trusted provider."
+      ]
+    },
+    {
+      "question": "Is towing near me available?",
+      "answer": [
+        "Yes, towing near you is available with team nationwide. Our professional team provides fast and reliable towing services 24/7. Contact us today and experience top-notch towing services at an affordable price."
+      ]
+    },
+    {
+      "question": "How do you get a title for a car?",
+      "answer": [
+        "To obtain a title for a car, you will need to follow these steps:",
+        "1. Gather necessary documentation: You will need to have the car's current registration, proof of insurance, and a valid photo ID. If you recently purchased the car, you will also need the bill of sale.",
+        "2. Complete a title application: In most states, you can complete a title application form online or in person at your local Department of Motor Vehicles (DMV). The form will ask for information about the car, such as the make, model, year, and VIN number, as well as information about the owner(s).",
+        "3. Pay the required fee: There is usually a fee for obtaining a car title, which varies by state. Check with your DMV to find out what the fee is in your area.",
+        "4. Submit the title application and required documents: Once you have completed the title application form and gathered all the necessary documents, you will need to submit them to your local DMV.",
+        "5. Wait for processing: The DMV will process your title application and, if approved, will issue you a new title in the mail. The processing time can vary, but it is usually within a few weeks.",
+        "6. Keep the title in a safe place: Once you have received your car title, it is important to keep it in a safe place. You will need to present it whenever you sell the car or transfer ownership.",
+        "Note that the process of obtaining a car title may vary slightly depending on your state and the specific circumstances of your case, so it's a good idea to check with your local DMV for more information."
+      ]
+    },
+    {
+      "question": "answer",
+      "answer": [
+        "answer"
+      ]
+    }
+  ]
+}
