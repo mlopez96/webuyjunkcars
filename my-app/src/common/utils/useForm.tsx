@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
-import axios from "axios";
+import { contactCollection, addDoc } from '../../services/database/firebase';
 
 export const useForm = (validate: any) => {
   const [values, setValues] = useState({});
@@ -14,19 +14,24 @@ export const useForm = (validate: any) => {
     });
   };
 
-  const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     setErrors(validate(values));
-    // Your url for API
-    const url = "";
+
     if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values,
+      try {
+        const response = await addDoc(contactCollection, {
+          ...values
         })
-        .then(() => {
+
+        if (response) {
+          console.log('response', response);
           setShouldSubmit(true);
-        });
+        }
+      }
+      catch (error) {
+        console.error(error)
+      }
     }
   };
 
